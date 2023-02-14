@@ -1,5 +1,10 @@
 const initialisation={
-    users:[{}],
+    users:[{
+        id:1,
+        FirstName:"mikheil",
+        LastName:"sean",
+        City:"new York"
+    }],
     id:2
 }
 export default function reducer(state=initialisation,action){
